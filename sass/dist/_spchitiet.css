@@ -1,0 +1,37 @@
+.product-chitiet {
+  margin: 0 auto;
+}
+.product-chitiet__top {
+  display: flex;
+  gap: 20px;
+}
+.product-chitiet__left {
+  width: 53%;
+  height: 100%;
+}
+.product-chitiet__left .big_img {
+  width: 100%;
+}
+.product-chitiet__left .big_img img {
+  width: 100%;
+}
+.product-chitiet__left .small_img {
+  max-width: 100%;
+  overflow: hidden;
+}
+.product-chitiet__left .small_img .small_image {
+  display: flex;
+  gap: 10px;
+}
+.product-chitiet__left .small_img .small_image img {
+  border: 1px solid black;
+  width: 100%;
+  cursor: pointer;
+}
+.product-chitiet__right {
+  width: 40%;
+  border: 1px solid black;
+}
+.product-chitiet__right h3 {
+  font-size: 20px;
+}
